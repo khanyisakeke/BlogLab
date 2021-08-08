@@ -72,5 +72,10 @@ namespace BlogLab.Repository
             }
             return applicationUser; 
         }
+
+        public Task<ApplicationUserIdentity> GetByUsernameAsync(string normalizedUsername, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
