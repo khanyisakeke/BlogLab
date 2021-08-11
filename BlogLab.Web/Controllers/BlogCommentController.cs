@@ -61,7 +61,7 @@ namespace BlogLab.Web.Controllers
 
             else
             {
-                return BadRequest("This comment was not created by the current user.")
+                return BadRequest("This comment was not created by the current user.");
             }
         }
     }
